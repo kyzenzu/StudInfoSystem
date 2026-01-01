@@ -110,7 +110,7 @@ public class MainFrame {
 		JMenuItem aboutItem = new JMenuItem("关于");
 		JMenuItem quit = new JMenuItem("退出");
 		aboutItem.addActionListener(e -> {
-			JOptionPane.showMessageDialog(null, "作者:2022b11062-朱启政, 2022b11059-虞晟玮", "消息", -1); 
+			JOptionPane.showMessageDialog(null, "作者:张三, 李四", "消息", -1); 
 		});
 		quit.addActionListener(e -> {
 			frame.setVisible(false);
